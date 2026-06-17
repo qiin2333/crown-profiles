@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/qiin2333/crown-profiles/main/schemas/crown-profile-bundle.v1.schema.json",
+  "title": "Crown Profile Bundle",
+  "type": "object",
+  "required": ["kind", "schemaVersion", "name", "profile"],
+  "properties": {
+    "kind": {
+      "const": "crown-profile-bundle"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "bundleId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string"
+    },
+    "author": {
+      "type": "object"
+    },
+    "game": {
+      "type": "object"
+    },
+    "profile": {
+      "type": "object",
+      "required": ["name", "payload", "payloadSha256"],
+      "properties": {
+        "profileId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "payload": {
+          "type": "string"
+        },
+        "payloadSha256": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,41 @@
+name: Submit Crown Profile
+description: Share a Crown profile with the community store.
+title: "[Profile] "
+labels:
+  - profile-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Export a `.crown.json` share package from Moonlight V+ and attach it here.
+        A maintainer will validate the bundle and add it to the store index.
+  - type: input
+    id: profile-name
+    attributes:
+      label: Profile name
+      placeholder: Apex FPS Layout
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: Apex Legends
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      placeholder: Your GitHub username or display name
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: What makes this layout useful?
+  - type: textarea
+    id: attachment
+    attributes:
+      label: Crown share package
+      description: Drag the exported `.crown.json` file into this field, or paste a raw GitHub/Gist URL.
+      placeholder: Attach the file here.
+    validations:
+      required: true

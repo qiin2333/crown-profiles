@@ -1,0 +1,30 @@
+{
+  "kind": "crown-profile-bundle",
+  "schemaVersion": 1,
+  "bundleId": "crown.smoke-test-crown-layout.890fd858",
+  "name": "Smoke Test Crown Layout",
+  "summary": "Temporary submission smoke test. This PR will be closed.",
+  "author": {
+    "name": "qiin2333"
+  },
+  "game": {
+    "name": "Smoke Test"
+  },
+  "tags": [
+    "smoke-test"
+  ],
+  "compatibility": {
+    "minAppVersionCode": 390,
+    "profilePayloadVersion": 9
+  },
+  "profile": {
+    "profileId": "public-payload-890fd858284324a15f7967c184b4a88bba4978e3c73e2fc0d3b32b6b0feeae03",
+    "name": "Smoke Test Crown Layout",
+    "payload": "{\"version\":9,\"settings\":\"{\\\"config_name\\\":\\\"Smoke Test Crown Layout\\\",\\\"touch_enable\\\":\\\"true\\\"}\",\"elements\":\"[{\\\"element_id\\\":1,\\\"element_type\\\":1,\\\"name\\\":\\\"Smoke Button\\\"}]\",\"md5\":\"031c8ca1185f9919fe455fe9b50bf27b\"}",
+    "payloadSha256": "890fd858284324a15f7967c184b4a88bba4978e3c73e2fc0d3b32b6b0feeae03"
+  },
+  "createdAt": "2026-06-17T17:45:49Z",
+  "updatedAt": "2026-06-17T17:45:49Z",
+  "packageName": "com.limelight",
+  "appVersionName": "12.9.8"
+}

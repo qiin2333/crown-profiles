@@ -1,6 +1,19 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T00:00:00Z",
-  "profiles": []
+  "generatedAt": "2026-06-17T17:45:49Z",
+  "profiles": [
+    {
+      "bundleId": "crown.smoke-test-crown-layout.890fd858",
+      "name": "Smoke Test Crown Layout",
+      "summary": "Temporary submission smoke test. This PR will be closed.",
+      "author": "qiin2333",
+      "game": "Smoke Test",
+      "tags": [
+        "smoke-test"
+      ],
+      "updatedAt": "2026-06-17T17:45:49Z",
+      "url": "../profiles/smoke-test/smoke-test-crown-layout-890fd858.crown.json"
+    }
+  ]
 }

@@ -1,6 +1,17 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T00:00:00Z",
-  "profiles": []
+  "generatedAt": "2026-06-18T03:30:13Z",
+  "profiles": [
+    {
+      "bundleId": "crown.crown-profile.5de07554",
+      "name": "吞吞吐吐",
+      "summary": "就是好用",
+      "author": "qiin6666",
+      "game": "",
+      "tags": [],
+      "updatedAt": "2026-06-18T03:30:13Z",
+      "url": "..\/profiles\/general\/crown-profile-5de07554.crown.json"
+    }
+  ]
 }

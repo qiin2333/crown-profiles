@@ -1,0 +1,31 @@
+{
+  "kind": "crown-profile-bundle",
+  "schemaVersion": 1,
+  "bundleId": "crown.crown-profile.499c74cb",
+  "name": "吞吞吐吐",
+  "summary": "",
+  "compatibility": {
+    "minAppVersionCode": 391,
+    "profilePayloadVersion": 9
+  },
+  "profile": {
+    "profileId": "public-payload-499c74cb7e9537c13b6dd1de6c575408484c2d6eac6cf2aac68023b179fc904e",
+    "name": "吞吞吐吐",
+    "payload": "{\"elements\":\"[{\\\"element_height\\\":400,\\\"normalTextColor\\\":-1,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1782059187045,\\\"element_color\\\":-259487608,\\\"element_flag1\\\":1,\\\"element_layer\\\":40,\\\"element_sense\\\":30,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k51,k32,k47,k29,k45,k33,k46,k31\\\",\\\"element_width\\\":400,\\\"element_mode\\\":8,\\\"element_text\\\":\\\"\\\",\\\"element_type\\\":54,\\\"extra_attributes\\\":\\\"{\\\\\\\"normalTextColor\\\\\\\":-1,\\\\\\\"pressedTextColor\\\\\\\":-1,\\\\\\\"centerTextColor\\\\\\\":-1,\\\\\\\"textSizePercent\\\\\\\":35,\\\\\\\"centerTextSizePercent\\\\\\\":60,\\\\\\\"triggerTextSizePercent\\\\\\\":40,\\\\\\\"previewGroupChildren\\\\\\\":true}\\\",\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":929,\\\"element_central_y\\\":421,\\\"element_id\\\":1782059187046,\\\"element_background_color\\\":-1438366652,\\\"textSizePercent\\\":63},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1782059187045,\\\"element_color\\\":-259487608,\\\"element_flag1\\\":0,\\\"element_layer\\\":50,\\\"element_sense\\\":0,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"-1\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"GROUP\\\",\\\"element_type\\\":4,\\\"extra_attributes\\\":\\\"{\\\\\\\"movableInNormalMode\\\\\\\":false,\\\\\\\"userHasManuallySet\\\\\\\":false}\\\",\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":100,\\\"element_central_y\\\":100,\\\"element_id\\\":1782059187047,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25}]\",\"md5\":\"f48a210ef8071396de0417aa4cd732fa\",\"settings\":\"{\\\"mouse_wheel_speed\\\":20,\\\"touch_enable\\\":\\\"true\\\",\\\"touch_mode\\\":\\\"true\\\",\\\"enhanced_touch\\\":\\\"false\\\",\\\"config_id\\\":1782059187045,\\\"config_name\\\":\\\"吞吞吐吐\\\",\\\"touch_sense\\\":100}\",\"version\":9}",
+    "payloadSha256": "499c74cb7e9537c13b6dd1de6c575408484c2d6eac6cf2aac68023b179fc904e"
+  },
+  "createdAt": "2026-06-22T03:38:17Z",
+  "updatedAt": "2026-06-22T03:38:17Z",
+  "packageName": "com.limelight.qiin",
+  "layoutBasis": {
+    "widthPx": 1080,
+    "heightPx": 2376,
+    "densityDpi": 420,
+    "density": 2.625,
+    "orientation": "portrait"
+  },
+  "author": {
+    "name": "qiin2333"
+  },
+  "appVersionName": "12.10.2"
+}

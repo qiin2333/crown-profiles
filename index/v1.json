@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T03:30:13Z",
+  "generatedAt": "2026-06-29T22:01:00Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.5de07554",
@@ -12,6 +12,26 @@
       "tags": [],
       "updatedAt": "2026-06-18T03:30:13Z",
       "url": "..\/profiles\/general\/crown-profile-5de07554.crown.json"
+    },
+    {
+      "bundleId": "crown.windows.8d9f84e4",
+      "name": "Windows日常多按钮多功能",
+      "summary": "有各种方便的快捷按钮，还有手柄按键。可以自由的单独显示和隐藏各种按钮和手柄。也有全按钮隐藏的纯洁观看模式",
+      "author": "Link-HXX",
+      "game": "Windows桌面",
+      "tags": [
+        "desktop",
+        "Windows"
+      ],
+      "updatedAt": "2026-06-29T22:01:00Z",
+      "url": "..\/profiles\/windows\/windows-8d9f84e4.crown.json",
+      "layoutBasis": {
+        "widthPx": 1240,
+        "heightPx": 2772,
+        "densityDpi": 620,
+        "density": 3.875,
+        "orientation": "portrait"
+      }
     }
   ]
 }

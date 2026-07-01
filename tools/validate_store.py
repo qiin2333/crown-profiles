@@ -8,6 +8,7 @@ from urllib.parse import urljoin, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "index" / "v1.json"
 INDEX_URL = "https://raw.githubusercontent.com/qiin2333/crown-profiles/main/index/v1.json"
+SENSITIVE_WORDS_PATH = ROOT / "policy" / "sensitive_words.txt"
 
 
 class ValidationError(Exception):
@@ -27,6 +28,67 @@ def md5_hex(text):
 
 def sha256_hex(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def load_sensitive_terms():
+    if not SENSITIVE_WORDS_PATH.exists():
+        return []
+
+    terms = []
+    seen = set()
+    lines = SENSITIVE_WORDS_PATH.read_text(encoding="utf-8").splitlines()
+    for line_number, line in enumerate(lines, 1):
+        term = line.strip()
+        if not term or term.startswith("#"):
+            continue
+
+        normalized = term.casefold()
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        source = f"{SENSITIVE_WORDS_PATH.relative_to(ROOT).as_posix()}:{line_number}"
+        terms.append((normalized, source))
+    return terms
+
+
+def validate_sensitive_text(source, value, sensitive_terms):
+    if not sensitive_terms or not isinstance(value, str):
+        return
+
+    normalized = value.casefold()
+    for term, origin in sensitive_terms:
+        if term in normalized:
+            raise ValidationError(f"{source}: contains blocked wording ({origin})")
+
+
+def validate_sensitive_listing_fields(profile, source, sensitive_terms):
+    for key in ("name", "summary", "author", "game"):
+        validate_sensitive_text(f"{source}.{key}", profile.get(key), sensitive_terms)
+
+    tags = profile.get("tags")
+    if isinstance(tags, list):
+        for index, tag in enumerate(tags):
+            validate_sensitive_text(f"{source}.tags[{index}]", tag, sensitive_terms)
+
+
+def nested_name(value):
+    if isinstance(value, dict):
+        return value.get("name")
+    return value
+
+
+def validate_sensitive_bundle_fields(bundle, source, sensitive_terms):
+    raw_profile = bundle.get("profile")
+    profile = raw_profile if isinstance(raw_profile, dict) else {}
+    listing = {
+        "name": bundle.get("name") or profile.get("name"),
+        "summary": bundle.get("summary"),
+        "author": nested_name(bundle.get("author")),
+        "game": nested_name(bundle.get("game")),
+        "tags": bundle.get("tags"),
+    }
+    validate_sensitive_listing_fields(listing, source, sensitive_terms)
+    validate_sensitive_text(f"{source}: profile.payload", profile.get("payload"), sensitive_terms)
 
 
 def validate_payload(payload_text, source):
@@ -54,12 +116,13 @@ def validate_payload(payload_text, source):
         raise ValidationError(f"{source}: settings/elements JSON is invalid: {exc}") from exc
 
 
-def validate_bundle(path):
+def validate_bundle(path, sensitive_terms=()):
     bundle = load_json(path)
     if bundle.get("kind") != "crown-profile-bundle":
         raise ValidationError(f"{path}: unsupported bundle kind")
     if bundle.get("schemaVersion") != 1:
         raise ValidationError(f"{path}: unsupported schemaVersion")
+    validate_sensitive_bundle_fields(bundle, str(path), sensitive_terms)
 
     profile = bundle.get("profile")
     if not isinstance(profile, dict):
@@ -91,7 +154,7 @@ def local_path_for_profile_url(profile_url):
     return path
 
 
-def validate_index():
+def validate_index(sensitive_terms=()):
     index = load_json(INDEX_PATH)
     if index.get("kind") != "crown-profile-index":
         raise ValidationError("index/v1.json: unsupported kind")
@@ -111,6 +174,7 @@ def validate_index():
         url = str(profile.get("url", "")).strip()
         if not name or not url:
             raise ValidationError(f"index/v1.json: profiles[{i}] missing name or url")
+        validate_sensitive_listing_fields(profile, f"index/v1.json: profiles[{i}]", sensitive_terms)
         if url in seen_urls:
             raise ValidationError(f"index/v1.json: duplicate url {url}")
         seen_urls.add(url)
@@ -124,14 +188,14 @@ def validate_index():
         bundle_path = local_path_for_profile_url(url)
         if not bundle_path.exists():
             raise ValidationError(f"index/v1.json: profile file does not exist: {url}")
-        validate_bundle(bundle_path)
+        validate_bundle(bundle_path, sensitive_terms)
 
 
-def validate_all_bundles():
+def validate_all_bundles(sensitive_terms=()):
     seen_bundle_ids = set()
     seen_payloads = set()
     for path in sorted((ROOT / "profiles").glob("**/*.crown.json")):
-        validate_bundle(path)
+        validate_bundle(path, sensitive_terms)
         bundle = load_json(path)
         bundle_id = str(bundle.get("bundleId", "")).strip()
         if bundle_id:
@@ -149,8 +213,9 @@ def validate_all_bundles():
 
 def main():
     try:
-        validate_all_bundles()
-        validate_index()
+        sensitive_terms = load_sensitive_terms()
+        validate_all_bundles(sensitive_terms)
+        validate_index(sensitive_terms)
     except ValidationError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

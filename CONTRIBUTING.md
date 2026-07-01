@@ -10,6 +10,8 @@ Thanks for sharing a Crown layout.
 - Keep one profile per file.
 - Use lowercase path names with hyphens, for example
   `profiles/apex-legends/fps-layout.crown.json`.
+- Keep profile names, descriptions, authors, games, tags, and payload text free
+  of wording blocked by `policy/sensitive_words.txt`.
 
 ## Store Index
 
@@ -23,4 +25,5 @@ python tools/validate_store.py
 ```
 
 The validator checks the store index, duplicate entries, profile paths, every
-profile bundle schema version, bundle SHA-256, and the nested Crown payload MD5.
+profile bundle schema version, bundle SHA-256, blocked wording, and the nested
+Crown payload MD5.

@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/qiin2333/crown-profiles/main/index/v1.json
 
 ```text
 index/v1.json                  Generated store index consumed by the app
+policy/sensitive_words.txt     Blocked wording list used by local/CI validation
 profiles/<game>/<profile>.json Published Crown profile bundles
 schemas/                       JSON schema references
 tools/generate_store_index.py  Rebuilds the generated store index
@@ -47,6 +48,9 @@ to the main store branch.
 
 Do not edit `index/v1.json` in profile submissions. It is generated from the
 profile bundle files by GitHub Actions after merge.
+
+Pull requests are also checked against `policy/sensitive_words.txt`. If a
+profile listing or payload contains blocked wording, CI will fail before merge.
 
 If you are submitting from a phone, open an issue with the "Submit Crown
 Profile" template and attach the exported `.crown.json` file. A maintainer can

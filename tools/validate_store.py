@@ -127,8 +127,29 @@ def validate_index():
         validate_bundle(bundle_path)
 
 
+def validate_all_bundles():
+    seen_bundle_ids = set()
+    seen_payloads = set()
+    for path in sorted((ROOT / "profiles").glob("**/*.crown.json")):
+        validate_bundle(path)
+        bundle = load_json(path)
+        bundle_id = str(bundle.get("bundleId", "")).strip()
+        if bundle_id:
+            if bundle_id in seen_bundle_ids:
+                raise ValidationError(f"duplicate bundleId {bundle_id}")
+            seen_bundle_ids.add(bundle_id)
+
+        profile = bundle.get("profile") or {}
+        payload_sha = str(profile.get("payloadSha256", "")).strip()
+        if payload_sha:
+            if payload_sha in seen_payloads:
+                raise ValidationError(f"duplicate profile payloadSha256 {payload_sha}")
+            seen_payloads.add(payload_sha)
+
+
 def main():
     try:
+        validate_all_bundles()
         validate_index()
     except ValidationError as exc:
         print(f"error: {exc}", file=sys.stderr)

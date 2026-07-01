@@ -31,6 +31,23 @@
       "url": "../profiles/general/crown-profile-5de07554.crown.json"
     },
     {
+      "bundleId": "crown.f1-f12.82d486da",
+      "name": "补充一些键盘没有f1到f12",
+      "summary": "补充一些键盘没有f1到f12，适用于用16：10的平板串流16：9的电脑，使用时请把屏幕位置设置到最上方",
+      "author": "SquirrelLuo",
+      "game": "",
+      "tags": [],
+      "updatedAt": "2026-06-27T08:09:40Z",
+      "url": "../profiles/general/f1-f12-82d486da.crown.json",
+      "layoutBasis": {
+        "widthPx": 2560,
+        "heightPx": 1600,
+        "densityDpi": 320,
+        "density": 2,
+        "orientation": "landscape"
+      }
+    },
+    {
       "bundleId": "crown.windows.8d9f84e4",
       "name": "Windows日常多按钮多功能",
       "summary": "有各种方便的快捷按钮，还有手柄按键。可以自由的单独显示和隐藏各种按钮和手柄。也有全按钮隐藏的纯洁观看模式",

@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T03:30:13Z",
+  "generatedAt": "2026-07-01T04:39:09Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.5de07554",
@@ -12,6 +12,23 @@
       "tags": [],
       "updatedAt": "2026-06-18T03:30:13Z",
       "url": "..\/profiles\/general\/crown-profile-5de07554.crown.json"
+    },
+    {
+      "bundleId": "crown.crown-profile.66f61513",
+      "name": "通用低分辨率",
+      "summary": "上一套布局的k50低分辨率版。也是我主用的布局。由于作者是用k50做的，别的设备可能会有点大小边界的问题。几乎完美利用手机串流的黑边作为功能区，解决了黑边既没用又突兀的感觉。\n功能介绍：边界分为上下左右4块区域，左上角可移动左键，右上角可移动右键，左下角方向键，右下角移动鼠标。点击串流简化信息（有个隐形手柄）",
+      "author": "anyi3007",
+      "game": "通用",
+      "tags": [],
+      "updatedAt": "2026-07-01T04:39:09Z",
+      "url": "..\/profiles\/crown-profile\/crown-profile-66f61513.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2322,
+        "densityDpi": 420,
+        "density": 2.625,
+        "orientation": "portrait"
+      }
     }
   ]
 }

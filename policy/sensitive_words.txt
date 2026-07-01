@@ -1,0 +1,6 @@
+# One blocked literal per line.
+# Matching is case-insensitive and uses substring matching, so keep terms focused
+# to avoid false positives.
+#
+# CI reports the source field and this file's line number, but does not repeat
+# the matched wording in logs.

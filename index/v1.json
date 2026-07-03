@@ -74,6 +74,25 @@
       }
     },
     {
+      "bundleId": "crown.lsaac-rebirth.349f34f6",
+      "name": "lsaac Rebirth",
+      "summary": "以撒的结合重生常用按键布局",
+      "author": "小林不知道诶",
+      "game": "以撒的结合：重生",
+      "tags": [
+        "isaac"
+      ],
+      "updatedAt": "2026-07-02T17:41:38Z",
+      "url": "../profiles/crown-profile/lsaac-rebirth-349f34f6.crown.json",
+      "layoutBasis": {
+        "widthPx": 1216,
+        "heightPx": 2640,
+        "densityDpi": 476,
+        "density": 2.9750001430511475,
+        "orientation": "portrait"
+      }
+    },
+    {
       "bundleId": "crown.f1-f12.82d486da",
       "name": "补充一些键盘没有f1到f12",
       "summary": "补充一些键盘没有f1到f12，适用于用16：10的平板串流16：9的电脑，使用时请把屏幕位置设置到最上方",

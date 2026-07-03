@@ -1,8 +1,25 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T17:39:24Z",
+  "generatedAt": "2026-07-03T04:37:42Z",
   "profiles": [
+    {
+      "bundleId": "crown.1080p.c63edf7f",
+      "name": "低遮挡手柄(1080p)",
+      "summary": "该手柄布局适用手机(2400*1080)，在设置16:9画面串流时不遮挡显示画面，左右摇杆为自由摇杆在屏幕中央，左右肩键为透明按键在上方按按就能出现。左上角按钮可隐藏手柄按键",
+      "author": "gmaox",
+      "game": "支持手柄均可",
+      "tags": [],
+      "updatedAt": "2026-07-03T04:37:42Z",
+      "url": "../profiles/crown-profile/1080p-c63edf7f.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2400,
+        "densityDpi": 450,
+        "density": 2.8125,
+        "orientation": "portrait"
+      }
+    },
     {
       "bundleId": "crown.crown-profile.0bc71a71",
       "name": "通用",

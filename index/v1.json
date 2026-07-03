@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T04:39:06Z",
+  "generatedAt": "2026-07-02T17:39:24Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.0bc71a71",
@@ -34,6 +34,25 @@
         "heightPx": 2322,
         "densityDpi": 420,
         "density": 2.625,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.dnf.811c7c05",
+      "name": "DNF常用按键",
+      "summary": "刷图日常足够使用，打团和高难度不太建议",
+      "author": "小林不知道诶",
+      "game": "地下城与勇士",
+      "tags": [
+        "dnf"
+      ],
+      "updatedAt": "2026-07-02T17:39:24Z",
+      "url": "../profiles/crown-profile/dnf-811c7c05.crown.json",
+      "layoutBasis": {
+        "widthPx": 1216,
+        "heightPx": 2640,
+        "densityDpi": 476,
+        "density": 2.9750001430511475,
         "orientation": "portrait"
       }
     },

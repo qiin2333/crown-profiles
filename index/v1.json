@@ -74,6 +74,25 @@
       }
     },
     {
+      "bundleId": "crown.find-n5.1cd4cf15",
+      "name": "适用于find n5的手柄",
+      "summary": "比较通用，适用于三指操作",
+      "author": "凯旋穷叭叭",
+      "game": "手柄通用",
+      "tags": [
+        "手柄"
+      ],
+      "updatedAt": "2026-07-03T04:11:12Z",
+      "url": "../profiles/crown-profile/find-n5-1cd4cf15.crown.json",
+      "layoutBasis": {
+        "widthPx": 2248,
+        "heightPx": 2480,
+        "densityDpi": 442,
+        "density": 2.762500047683716,
+        "orientation": "portrait"
+      }
+    },
+    {
       "bundleId": "crown.lsaac-rebirth.349f34f6",
       "name": "lsaac Rebirth",
       "summary": "以撒的结合重生常用按键布局",

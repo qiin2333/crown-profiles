@@ -1,0 +1,34 @@
+{
+  "kind": "crown-profile-bundle",
+  "schemaVersion": 1,
+  "bundleId": "crown.16-9.05cf8cdf",
+  "name": "16：9掌机用系统快捷键",
+  "summary": "四个隐形按键设置在屏幕四个角落，分别是tab，alt，F4，win＋D。其中win＋D可以一键回到桌面，而alt与tab组合可以快速切换窗口，与F4组合可以一键关闭当前窗口。",
+  "compatibility": {
+    "minAppVersionCode": 393,
+    "profilePayloadVersion": 9
+  },
+  "profile": {
+    "profileId": "public-payload-05cf8cdfb33010909dd9fe172b44559bd0396ea3ec5c4b11e96ed892862f5b3a",
+    "name": "16：9掌机用系统快捷键",
+    "payload": "{\"elements\":\"[{\\\"element_down_value\\\":\\\"null\\\",\\\"element_up_value\\\":\\\"null\\\",\\\"element_height\\\":241,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"element_left_value\\\":\\\"null\\\",\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":0,\\\"element_color\\\":16777215,\\\"element_flag1\\\":1,\\\"element_layer\\\":59,\\\"element_thick\\\":0,\\\"element_value\\\":\\\"k57\\\",\\\"element_width\\\":241,\\\"element_text\\\":\\\"\\\",\\\"element_type\\\":3,\\\"element_pressed_color\\\":-261658713,\\\"element_central_x\\\":109,\\\"element_central_y\\\":970,\\\"element_id\\\":1761921126246,\\\"element_right_value\\\":\\\"null\\\",\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_down_value\\\":\\\"null\\\",\\\"element_up_value\\\":\\\"k32\\\",\\\"element_height\\\":241,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"element_left_value\\\":\\\"null\\\",\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":0,\\\"element_color\\\":16777215,\\\"element_flag1\\\":1,\\\"element_layer\\\":59,\\\"element_thick\\\":0,\\\"element_value\\\":\\\"k117\\\",\\\"element_width\\\":241,\\\"element_text\\\":\\\"\\\",\\\"element_type\\\":3,\\\"element_pressed_color\\\":-261658713,\\\"element_central_x\\\":1807,\\\"element_central_y\\\":116,\\\"element_id\\\":1761921854894,\\\"element_right_value\\\":\\\"null\\\",\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_down_value\\\":\\\"null\\\",\\\"element_up_value\\\":\\\"null\\\",\\\"element_height\\\":241,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"element_left_value\\\":\\\"null\\\",\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":0,\\\"element_color\\\":16777215,\\\"element_flag1\\\":1,\\\"element_layer\\\":59,\\\"element_thick\\\":0,\\\"element_value\\\":\\\"k134\\\",\\\"element_width\\\":241,\\\"element_text\\\":\\\"\\\",\\\"element_type\\\":3,\\\"element_pressed_color\\\":-261658713,\\\"element_central_x\\\":111,\\\"element_central_y\\\":115,\\\"element_id\\\":1761922073224,\\\"element_right_value\\\":\\\"null\\\",\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_down_value\\\":\\\"null\\\",\\\"element_up_value\\\":\\\"null\\\",\\\"element_height\\\":241,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"element_left_value\\\":\\\"null\\\",\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":0,\\\"element_color\\\":16777215,\\\"element_flag1\\\":1,\\\"element_layer\\\":59,\\\"element_thick\\\":0,\\\"element_value\\\":\\\"k61\\\",\\\"element_width\\\":241,\\\"element_text\\\":\\\"\\\",\\\"element_type\\\":3,\\\"element_pressed_color\\\":-261658713,\\\"element_central_x\\\":1808,\\\"element_central_y\\\":970,\\\"element_id\\\":1761932383138,\\\"element_right_value\\\":\\\"null\\\",\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25}]\",\"md5\":\"4e082b514dac4a6944c5b13330eeebd0\",\"settings\":\"{\\\"touch_mode\\\":\\\"true\\\",\\\"enhanced_touch\\\":\\\"true\\\",\\\"config_id\\\":0,\\\"game_vibrator\\\":\\\"false\\\",\\\"button_vibrator\\\":\\\"false\\\",\\\"config_name\\\":\\\"default\\\",\\\"quick_action_ids\\\":\\\"[\\\\\\\"send_win\\\\\\\",\\\\\\\"send_esc\\\\\\\",\\\\\\\"send_sleep\\\\\\\",\\\\\\\"custom_Alt+F9\\\\\\\",\\\\\\\"custom_F11\\\\\\\"]\\\"}\",\"version\":9}",
+    "payloadSha256": "05cf8cdfb33010909dd9fe172b44559bd0396ea3ec5c4b11e96ed892862f5b3a"
+  },
+  "createdAt": "2026-07-04T09:49:25Z",
+  "updatedAt": "2026-07-04T09:49:25Z",
+  "packageName": "com.limelight.qiin",
+  "layoutBasis": {
+    "widthPx": 1080,
+    "heightPx": 1866,
+    "densityDpi": 360,
+    "density": 2.25,
+    "orientation": "portrait"
+  },
+  "author": {
+    "name": "EDAxios"
+  },
+  "game": {
+    "name": "高效切换和关闭窗口，回到桌面"
+  },
+  "appVersionName": "12.10.6"
+}

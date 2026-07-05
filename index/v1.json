@@ -1,8 +1,25 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-05T10:29:19Z",
+  "generatedAt": "2026-07-05T10:30:40Z",
   "profiles": [
+    {
+      "bundleId": "crown.3.4e18adb5",
+      "name": "无主之地3",
+      "summary": "手机键鼠配置，分辨率1900*864",
+      "author": "HAHA8688",
+      "game": "无主之地3",
+      "tags": [],
+      "updatedAt": "2026-07-05T10:30:40Z",
+      "url": "../profiles/3/3-4e18adb5.crown.json",
+      "layoutBasis": {
+        "widthPx": 1440,
+        "heightPx": 3168,
+        "densityDpi": 640,
+        "density": 4,
+        "orientation": "portrait"
+      }
+    },
     {
       "bundleId": "crown.1080p.c63edf7f",
       "name": "低遮挡手柄(1080p)",

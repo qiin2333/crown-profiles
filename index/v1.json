@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T04:37:42Z",
+  "generatedAt": "2026-07-04T09:49:25Z",
   "profiles": [
     {
       "bundleId": "crown.1080p.c63edf7f",
@@ -17,6 +17,23 @@
         "heightPx": 2400,
         "densityDpi": 450,
         "density": 2.8125,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.16-9.05cf8cdf",
+      "name": "16：9掌机用系统快捷键",
+      "summary": "四个隐形按键设置在屏幕四个角落，分别是tab，alt，F4，win＋D。其中win＋D可以一键回到桌面，而alt与tab组合可以快速切换窗口，与F4组合可以一键关闭当前窗口。",
+      "author": "EDAxios",
+      "game": "高效切换和关闭窗口，回到桌面",
+      "tags": [],
+      "updatedAt": "2026-07-04T09:49:25Z",
+      "url": "../profiles/crown-profile/16-9-05cf8cdf.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 1866,
+        "densityDpi": 360,
+        "density": 2.25,
         "orientation": "portrait"
       }
     },

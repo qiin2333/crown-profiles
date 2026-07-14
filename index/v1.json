@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-05T10:30:40Z",
+  "generatedAt": "2026-07-14T06:08:46Z",
   "profiles": [
     {
       "bundleId": "crown.3.4e18adb5",
@@ -85,6 +85,23 @@
         "heightPx": 2322,
         "densityDpi": 420,
         "density": 2.625,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.desktop-daily-duo.6c4dfd13",
+      "name": "desktop-daily-duo",
+      "summary": "自用，日常非游戏应用，键盘输入和基础快捷操作。利用了21:9串流笔记本16:10的空隙。",
+      "author": "phixt",
+      "game": "非游戏（",
+      "tags": [],
+      "updatedAt": "2026-07-14T06:08:46Z",
+      "url": "../profiles/crown-profile/desktop-daily-duo-6c4dfd13.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2376,
+        "densityDpi": 480,
+        "density": 3,
         "orientation": "portrait"
       }
     },

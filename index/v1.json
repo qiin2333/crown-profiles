@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T06:08:46Z",
+  "generatedAt": "2026-07-14T08:25:50Z",
   "profiles": [
     {
       "bundleId": "crown.3.4e18adb5",
@@ -176,6 +176,25 @@
         "heightPx": 2640,
         "densityDpi": 476,
         "density": 2.9750001430511475,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.gal-1080p.2be2d3fd",
+      "name": "gal-1080p",
+      "summary": "",
+      "author": "chanjifu92",
+      "game": "galgame",
+      "tags": [
+        "2340＊1080分辨率"
+      ],
+      "updatedAt": "2026-07-14T08:25:50Z",
+      "url": "../profiles/galgame/gal-1080p-2be2d3fd.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2250,
+        "densityDpi": 374,
+        "density": 2.3375000953674316,
         "orientation": "portrait"
       }
     },

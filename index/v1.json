@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T08:25:50Z",
+  "generatedAt": "2026-07-24T13:42:08Z",
   "profiles": [
     {
       "bundleId": "crown.3.4e18adb5",
@@ -232,6 +232,23 @@
         "densityDpi": 320,
         "density": 2,
         "orientation": "landscape"
+      }
+    },
+    {
+      "bundleId": "crown.crown-profile.9090a8d0",
+      "name": "某个适配我的世界的配置",
+      "summary": "有一些模组相关的配置，比如EmoteCraft，需要进按键绑定里重新绑定一下\n此配置在Honor 9X上创建",
+      "author": "tiaoling233",
+      "game": "我的世界(Minecraft)",
+      "tags": [],
+      "updatedAt": "2026-07-24T13:42:08Z",
+      "url": "../profiles/minecraft/crown-profile-9090a8d0.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2224,
+        "densityDpi": 480,
+        "density": 3,
+        "orientation": "portrait"
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T13:42:08Z",
+  "generatedAt": "2026-07-31T15:26:16Z",
   "profiles": [
     {
       "bundleId": "crown.3.4e18adb5",
@@ -248,6 +248,26 @@
         "heightPx": 2224,
         "densityDpi": 480,
         "density": 3,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.minecraft.3c2f1342",
+      "name": "Minecraft",
+      "summary": "我的世界按键适配，适用于小米平板5Pro或其他同分辨率平板，游戏视频设置中界面尺寸建议选择4，只添加了部分常用按键，原版功能基本齐全",
+      "author": "Zellon0w0",
+      "game": "Minecraft",
+      "tags": [
+        "Minecraft",
+        "XiaomiPad5Pro"
+      ],
+      "updatedAt": "2026-07-31T15:26:16Z",
+      "url": "../profiles/minecraft/minecraft-3c2f1342.crown.json",
+      "layoutBasis": {
+        "widthPx": 1600,
+        "heightPx": 2560,
+        "densityDpi": 360,
+        "density": 2.25,
         "orientation": "portrait"
       }
     },

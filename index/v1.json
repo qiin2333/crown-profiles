@@ -1,8 +1,25 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T15:26:16Z",
+  "generatedAt": "2026-08-03T03:18:19Z",
   "profiles": [
+    {
+      "bundleId": "crown.crown-profile.3dc63735",
+      "name": "手柄",
+      "summary": "",
+      "author": "qmy666999",
+      "game": "2400*1080",
+      "tags": [],
+      "updatedAt": "2026-08-03T03:18:19Z",
+      "url": "../profiles/2400-1080/crown-profile-3dc63735.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2400,
+        "densityDpi": 420,
+        "density": 2.625,
+        "orientation": "portrait"
+      }
+    },
     {
       "bundleId": "crown.3.4e18adb5",
       "name": "无主之地3",

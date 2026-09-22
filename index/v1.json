@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:02:09Z",
+  "generatedAt": "2026-09-15T12:49:51Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -51,6 +51,23 @@
         "heightPx": 3168,
         "densityDpi": 640,
         "density": 4,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.cod.cabedebd",
+      "name": "COD完全版",
+      "summary": "COD7-9",
+      "author": "BOB",
+      "game": "COD",
+      "tags": [],
+      "updatedAt": "2026-09-15T12:49:51Z",
+      "url": "../profiles/cod/cod-cabedebd.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2340,
+        "densityDpi": 450,
+        "density": 2.8125,
         "orientation": "portrait"
       }
     },

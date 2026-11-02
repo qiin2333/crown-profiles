@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T21:35:31Z",
+  "generatedAt": "2026-10-25T07:53:03Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -412,6 +412,23 @@
         "densityDpi": 320,
         "density": 2,
         "orientation": "landscape"
+      }
+    },
+    {
+      "bundleId": "crown.minecraft.99a86273",
+      "name": "Minecraft",
+      "summary": "",
+      "author": "Namhienlanh",
+      "game": "",
+      "tags": [],
+      "updatedAt": "2026-10-25T07:53:03Z",
+      "url": "../profiles/general/minecraft-99a86273.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2400,
+        "densityDpi": 440,
+        "density": 2.75,
+        "orientation": "portrait"
       }
     },
     {

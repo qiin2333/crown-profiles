@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T07:53:03Z",
+  "generatedAt": "2026-10-25T11:50:07Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -465,6 +465,23 @@
         "heightPx": 2560,
         "densityDpi": 360,
         "density": 2.25,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.crown-profile.fbd7fe86",
+      "name": "高分辨率手机模式",
+      "summary": "高分辨率手机不遮挡，可以自行调整",
+      "author": "cydia",
+      "game": "steam",
+      "tags": [],
+      "updatedAt": "2026-10-25T11:50:07Z",
+      "url": "../profiles/steam/crown-profile-fbd7fe86.crown.json",
+      "layoutBasis": {
+        "widthPx": 1440,
+        "heightPx": 3168,
+        "densityDpi": 640,
+        "density": 4,
         "orientation": "portrait"
       }
     },

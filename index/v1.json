@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T11:50:07Z",
+  "generatedAt": "2026-11-05T14:56:57Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -394,6 +394,23 @@
         "heightPx": 2400,
         "densityDpi": 338,
         "density": 2.112499952316284,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.cod.b907be68",
+      "name": "COD完全版",
+      "summary": "",
+      "author": "hackter737-eng",
+      "game": "",
+      "tags": [],
+      "updatedAt": "2026-11-05T14:56:57Z",
+      "url": "../profiles/general/cod-b907be68.crown.json",
+      "layoutBasis": {
+        "widthPx": 1220,
+        "heightPx": 2712,
+        "densityDpi": 480,
+        "density": 3,
         "orientation": "portrait"
       }
     },

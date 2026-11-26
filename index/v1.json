@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T22:50:10Z",
+  "generatedAt": "2026-11-26T07:06:57Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -193,6 +193,25 @@
         "heightPx": 2322,
         "densityDpi": 420,
         "density": 2.625,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.crown-profile.0c786804",
+      "name": "手柄配合",
+      "summary": "手柄按键不够用，凑按键",
+      "author": "凯旋穷叭叭",
+      "game": "自用备份",
+      "tags": [
+        "辅助手柄"
+      ],
+      "updatedAt": "2026-11-26T07:06:57Z",
+      "url": "../profiles/crown-profile/crown-profile-0c786804.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 1920,
+        "densityDpi": 369,
+        "density": 2.3062500953674316,
         "orientation": "portrait"
       }
     },

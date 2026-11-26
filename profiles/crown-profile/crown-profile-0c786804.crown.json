@@ -1,0 +1,38 @@
+{
+  "kind": "crown-profile-bundle",
+  "schemaVersion": 1,
+  "bundleId": "crown.crown-profile.0c786804",
+  "name": "手柄配合",
+  "summary": "",
+  "compatibility": {
+    "minAppVersionCode": 121507001,
+    "profilePayloadVersion": 10
+  },
+  "profile": {
+    "profileId": "public-payload-0c78680432df3dc96a3d18277f245155ffd48565d973d7cfff35fd836656e0f7",
+    "name": "手柄配合",
+    "payload": "{\"elements\":\"[{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k144\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"0\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":1830,\\\"element_central_y\\\":690,\\\"element_id\\\":1795172485054,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k140\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"F10\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":1830,\\\"element_central_y\\\":390,\\\"element_id\\\":1795172503998,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k141\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"F11\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":1830,\\\"element_central_y\\\":490,\\\"element_id\\\":1795172506300,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k142\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"F12\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":1830,\\\"element_central_y\\\":590,\\\"element_id\\\":1795172508126,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k59\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"⇧ Shift\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":84,\\\"element_central_y\\\":663,\\\"element_id\\\":1795172533122,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"m3\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"鼠右\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":84,\\\"element_central_y\\\":540,\\\"element_id\\\":1795172543499,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k8\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"1 !\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":84,\\\"element_central_y\\\":810,\\\"element_id\\\":1795172613483,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k9\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"2 @\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":184,\\\"element_central_y\\\":810,\\\"element_id\\\":1795172617845,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25},{\\\"element_height\\\":100,\\\"normalTextColor\\\":-1,\\\"element_radius\\\":0,\\\"pressedTextColor\\\":-3355444,\\\"config_id\\\":1795172477632,\\\"element_color\\\":0,\\\"element_flag1\\\":1,\\\"element_layer\\\":50,\\\"element_thick\\\":5,\\\"element_value\\\":\\\"k10\\\",\\\"element_width\\\":100,\\\"element_text\\\":\\\"3 #\\\",\\\"element_type\\\":0,\\\"element_pressed_color\\\":-268435201,\\\"element_central_x\\\":284,\\\"element_central_y\\\":810,\\\"element_id\\\":1795172620996,\\\"element_background_color\\\":16777215,\\\"textSizePercent\\\":25}]\",\"md5\":\"5bc231926e7de74841cebb78ff05c600\",\"settings\":\"{\\\"touch_enable\\\":\\\"true\\\",\\\"touch_mode\\\":\\\"true\\\",\\\"enhanced_touch\\\":\\\"false\\\",\\\"config_id\\\":1795172477632,\\\"apply_mouse_wheel_speed\\\":0,\\\"config_name\\\":\\\"手柄配合\\\",\\\"apply_touchpad_sensitivity\\\":0,\\\"quick_action_ids\\\":\\\"[\\\\\\\"send_esc\\\\\\\",\\\\\\\"custom_发送 WIN + D (切到桌面)\\\\\\\",\\\\\\\"toggle_perf\\\\\\\",\\\\\\\"send_alt_f4\\\\\\\",\\\\\\\"quit\\\\\\\",\\\\\\\"toggle_mic\\\\\\\"]\\\",\\\"touch_sense\\\":100}\",\"version\":10}",
+    "payloadSha256": "0c78680432df3dc96a3d18277f245155ffd48565d973d7cfff35fd836656e0f7"
+  },
+  "createdAt": "2026-11-26T07:34:55Z",
+  "updatedAt": "2026-11-26T07:34:55Z",
+  "packageName": "com.limelight.qiin",
+  "layoutBasis": {
+    "widthPx": 1080,
+    "heightPx": 1920,
+    "densityDpi": 369,
+    "density": 2.3062500953674316,
+    "orientation": "portrait"
+  },
+  "author": {
+    "name": "k 凯旋穷叭叭"
+  },
+  "game": {
+    "name": "个人自用备份"
+  },
+  "tags": [
+    "手柄按键不够",
+    "触屏来凑"
+  ],
+  "appVersionName": "12.15.7"
+}

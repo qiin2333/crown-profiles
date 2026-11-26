@@ -1,7 +1,7 @@
 {
   "kind": "crown-profile-index",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T14:56:57Z",
+  "generatedAt": "2026-11-22T22:50:10Z",
   "profiles": [
     {
       "bundleId": "crown.crown-profile.3dc63735",
@@ -159,6 +159,23 @@
         "heightPx": 2712,
         "densityDpi": 520,
         "density": 3.25,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.crown-profile.01f89e9a",
+      "name": "光遇",
+      "summary": "光遇",
+      "author": "2510538639q-sketch",
+      "game": "光遇",
+      "tags": [],
+      "updatedAt": "2026-11-20T04:41:02Z",
+      "url": "../profiles/crown-profile/crown-profile-01f89e9a.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2376,
+        "densityDpi": 480,
+        "density": 3,
         "orientation": "portrait"
       }
     },
@@ -445,6 +462,25 @@
         "heightPx": 2400,
         "densityDpi": 440,
         "density": 2.75,
+        "orientation": "portrait"
+      }
+    },
+    {
+      "bundleId": "crown.3.62f8536d",
+      "name": "无主之地3",
+      "summary": "",
+      "author": "alimhmdi468-arch",
+      "game": "GTA V",
+      "tags": [
+        "45"
+      ],
+      "updatedAt": "2026-11-22T22:50:10Z",
+      "url": "../profiles/gta-v/3-62f8536d.crown.json",
+      "layoutBasis": {
+        "widthPx": 1080,
+        "heightPx": 2251,
+        "densityDpi": 450,
+        "density": 2.8125,
         "orientation": "portrait"
       }
     },
